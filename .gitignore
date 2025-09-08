@@ -1,43 +1,8 @@
-# ---- Python ----
-__pycache__/
-*.py[cod]
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
 .venv/
-venv/
+__pycache__/
+*.pyc
 .env
 .env.*
 *.db
-*.sqlite3
 *.log
-
-# ---- Node.js / Next.js ----
-node_modules/
-.next/
-out/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-package-lock.json
-yarn.lock
-.pnpm-debug.log
-
-# ---- Docker / Infra ----
-/infra/data/
-.docker/
-*.pid
-*.sock
-
-# ---- IDE / OS files ----
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# ---- Other ----
-*.bak
-*.swp
+*.sqlite3
